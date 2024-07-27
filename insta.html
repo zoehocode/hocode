@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        margin: 20px;
+      }
+      .section1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        padding-bottom: 20px;
+      }
+      .ava {
+        border-radius: 50%;
+      }
+      .image {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: center;
+        align-items: center;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        gap: 16px;
+        img {
+          width: 350px;
+          height: 400px;
+          -webkit-box-shadow: 4px 2px 6px #8e8e8e;
+          box-shadow: 4px 2px 6px #8e8e8e;
+          transition: transform 0.3s ease;
+          &:hover {
+            transform: scale(1.05);
+          }
+        }
+      }
+      .line {
+        border-bottom: 1px solid rgb(0, 0, 0);
+        margin-top: 1px;
+        width: 100%;
+      }
+      .container {
+        width: 1400px;
+        margin: auto;
+      }
+    </style>
+    <body>
+      <section class="section1">
+        <div>
+          <img class="ava" src="./asset/bb2.jpg" width="150px" height="150px" />
+        </div>
+        <div class="bio">
+          <h3>BongBi.ig</h3>
+          <p>17/09/2021</p>
+          <p>Nguyễn Thị Bông và Nguyễn Văn Bí</p>
+        </div>
+      </section>
+      <div class="container">
+        <div class="line"></div>
+        <div class="image">
+          <div>
+            <img src="./asset/bb1.jpg" alt="bongbi" />
+          </div>
+          <div>
+            <img src="./asset/bb1.jpg" alt="bongbi" />
+          </div>
+          <div>
+            <img src="./asset/bb1.jpg" alt="bongbi" />
+          </div>
+          <div>
+            <img src="./asset/bb1.jpg" alt="bongbi" />
+          </div>
+          <div>
+            <img src="./asset/bb1.jpg" alt="bongbi" />
+          </div>
+          <div>
+            <img src="./asset/bb1.jpg" alt="bongbi" />
+          </div>
+        </div>
+      </div>
+    </body>
+  </head>
+</html>
